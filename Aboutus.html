@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        html{
+            font-size: small;
+        }
+        body {
+            /* Set a background color that will be displayed
+                while the background image is loading */
+            background-image: url("https://images.unsplash.com/photo-1587826080692-f439cd0b70da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+            background-color: #464646;
+            
+        }
+        *{
+            color: whitesmoke;
+            font-size: small;
+        }
+        .container{
+            background-color: black;
+            border: solid 2px purple;
+            display: flex;
+            flex-wrap: wrap;
+            width: 95%;
+            height: auto;
+            margin: auto;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: 25px;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            
+        }
+        .box{
+             /* border: solid 2px whitesmoke;  */
+            margin: auto;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(62, 236, 9);
+            zoom: 110%;
+        }
+        span:hover{
+            color: rgb(62, 236, 9);
+        }
+        .imgholder{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: solid 4px red; */
+        }
+        .rowobject{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* border: solid 4px red; */
+        }
+        .rowobject:hover{
+            zoom: 95%;
+        }
+        .object{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: auto;
+            width: 22vh;
+            height: auto;
+            border: solid 4px  rgb(78, 3, 47);
+            border-radius: 5vh;
+            background-color: rgb(78, 3, 47);
+            margin-bottom: 2vh;
+        }
+        .object:hover{
+            background-color: rgb(23, 180, 17);
+            zoom: 110%;
+        }
+        .facname{
+            margin: 0.5vh 1vh;
+            width: 20vh;
+            height: auto;
+            font-size: large;
+            text-align: center;
+            border-radius: 12vh;
+        }
+        .fac{
+            margin: 0.5vh 1vh;
+            width: 20vh;
+            height: auto;
+            border-radius: 12vh;
+        }
+        h2{
+            text-align: center;
+            font-size: xx-large;
+            border-radius: 12vh;
+        }
+        .xen{
+            /* float: right; */
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            zoom: 1;
+            border: solid 2px whitesmoke;
+            border-radius: 10%;
+            background-color: blueviolet;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box"><a href="/flex.html">HOME</a>
+        </div>
+        <div id="box2" class="box"><a href="/contact.html">Contact Us</a>
+        </div>
+        <div id="box3" class="box"><a href="http://bit.ly/2YxWsLv" target="blank">Apply Online</a>
+        </div>
+        <div id="box4" class="box"><a href="/Aboutus.html">About Us</a>
+        </div>
+        <div id="box4" class="box">
+            <a href="/contactM.html">मराठीत बघा
+            </a>
+        </div>
+    </div>
+
+    <div class = imgholder>
+        <div class="rowobject">
+            <div class="object">
+                <h2>
+                    शिक्षक वृंद
+                </h2>
+            </div>
+        </div>
+        <div class="rowobject">
+            <div class="object">
+                    <div class="facimg">
+                        <img src="/satishMarathe.jpg" class="fac">
+                    </div>
+                    <div class="facname">
+                        सतीश मराठे
+                    </div>
+                    <div class="facname">
+                        मुख्याध्यपक
+                    </div>
+            </div>
+        </div>
+        <div class="rowobject">
+            <div class="object">
+                    <div class="facimg">
+                        <img src="/shashi1.jpg" class="fac">
+                    </div>
+                    <div class="facname">
+                        शशिकांत बच्छाव
+                    </div>
+                    <div class="facname">
+                        उपशिक्षक
+                    </div>
+            </div>
+            <div class="object">
+                <div class="facimg">
+                    <img src="/sabale1.jpg" class="fac">
+                </div>
+                <div class="facname">
+                    जगदीश साबळे
+                </div>
+                <div class="facname">
+                    उपशिक्षक
+                </div>
+        </div>
+        </div>
+    </div>
+    <a href="#">
+        <div class="xen">
+            <div>
+                Developer
+            </div>
+            <div>
+                XEN LABS
+            </div>
+        </div>
+    </a>
+</body>
+</html>
